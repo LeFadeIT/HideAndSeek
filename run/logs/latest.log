@@ -1,0 +1,63 @@
+[01:25:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Windows 11 10.0 (amd64)
+[01:25:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[01:25:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:25:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[01:25:35] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - HideAndSeek (1.0-SNAPSHOT)
+[01:25:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:25:46] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[01:25:46] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[01:25:48] [ServerMain/INFO]: No existing world data, creating new world
+[01:25:50] [ServerMain/INFO]: Loaded 1407 recipes
+[01:25:50] [ServerMain/INFO]: Loaded 1520 advancements
+[01:25:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:25:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 792.7ms
+[01:25:51] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[01:25:51] [Server thread/INFO]: Loading properties
+[01:25:51] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[01:25:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:25:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:25:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:25:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[01:25:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:25:53] [Server thread/INFO]: Default game type: SURVIVAL
+[01:25:53] [Server thread/INFO]: Generating keypair
+[01:25:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:25:53] [Server thread/INFO]: Using default channel type
+[01:25:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:25:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:25:53] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
+[01:25:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:25:53] [Server thread/INFO]: Preparing level "world"
+[01:26:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:26:02] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:02] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:03] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:03] [Server thread/INFO]: Preparing spawn area: 12%
+[01:26:04] [Server thread/INFO]: Preparing spawn area: 18%
+[01:26:04] [Server thread/INFO]: Preparing spawn area: 30%
+[01:26:05] [Server thread/INFO]: Preparing spawn area: 40%
+[01:26:06] [Server thread/INFO]: Preparing spawn area: 40%
+[01:26:06] [Server thread/INFO]: Preparing spawn area: 40%
+[01:26:06] [Server thread/INFO]: Time elapsed: 4486 ms
+[01:26:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:26:06] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:07] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:07] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:08] [Server thread/INFO]: Preparing spawn area: 10%
+[01:26:08] [Server thread/INFO]: Time elapsed: 1781 ms
+[01:26:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:26:08] [Server thread/INFO]: Preparing spawn area: 2%
+[01:26:08] [Server thread/INFO]: Time elapsed: 298 ms
+[01:26:08] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
+[01:26:08] [Server thread/INFO]: Hide and Seek enabled!
+[01:26:08] [Server thread/INFO]: [spark] Starting background profiler...
+[01:26:08] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[01:26:09] [Server thread/INFO]: Done preparing level "world" (15.096s)
+[01:26:09] [Server thread/INFO]: Running delayed init tasks
+[01:26:09] [Server thread/INFO]: Done (38.645s)! For help, type "help"
+[01:26:12] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[01:26:14] [Server thread/INFO]: FadeIT joined the game
+[01:26:14] [Server thread/INFO]: FadeIT[/127.0.0.1:64421] logged in with entity id 67 at ([world]38.856849706839725, 70.0, -135.19435078361167)
+[01:26:21] [Server thread/INFO]: FadeIT issued server command: /gamemode creative
+[01:26:21] [Server thread/INFO]: [FadeIT: Set own game mode to Creative Mode]

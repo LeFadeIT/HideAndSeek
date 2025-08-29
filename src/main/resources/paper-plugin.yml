@@ -1,0 +1,4 @@
+name: HideAndSeek
+version: '1.0-SNAPSHOT'
+main: de.fade.hideAndSeek.HideAndSeek
+api-version: '1.21'
