@@ -20,21 +20,30 @@ public class ChangeGameStateCommand {
         return Commands.literal("setState")
                 .requires(sender -> sender.getSender().isOp())
                 .then(Commands.argument("state", StringArgumentType.word())
-                        .suggests(StateSuggestion.SUGGESTION_PROVIDER))
-                .executes(context -> {
-                    CommandSender sender = context.getSource().getSender();
-                    GameStateManager manager = HideAndSeek.getGameStateManager();
-                    String stateArg = context.getArgument("state", String.class);
+                        .suggests(StateSuggestion.SUGGESTION_PROVIDER)
+                        .executes(context -> {
+                            CommandSender sender = context.getSource().getSender();
+                            GameStateManager manager = HideAndSeek.getGameStateManager();
+                            String stateArg = context.getArgument("state", String.class);
+                            Gamestates newState = Gamestates.LOBBYPHASE;
 
-                    if(manager.contains(stateArg) && !stateArg.isEmpty()) {
-                        Gamestates newState = Gamestates.valueOf(stateArg);
-                        manager.setGameState(newState);
-                        sender.sendMessage(Component.text("The game state has been changed to " + stateArg + "!").color(NamedTextColor.GREEN));
-                        return 1;
-                    }
-                    sender.sendMessage(Component.text("Dieses game state existiert leider nicht!").color(NamedTextColor.RED));
-                    return 0;
+                            if (manager.contains(stateArg)) {
+                                newState = Gamestates.valueOf(stateArg);
+                            }
 
-                });
+                            if (manager.getCurrentState().equals(newState) && !stateArg.isEmpty()) {
+                                sender.sendMessage(Component.text("Das Spiel befindet sich schon in diesem State!").color(NamedTextColor.BLUE));
+                                return 1;
+                            }
+                            if (manager.contains(stateArg) && !stateArg.isEmpty()) {
+
+                                manager.setGameState(newState);
+                                sender.sendMessage(Component.text("Das Game state wurde zu " + stateArg + " geändert!").color(NamedTextColor.GREEN));
+                                return 1;
+                            }
+                            sender.sendMessage(Component.text("Dieses game state existiert leider nicht!").color(NamedTextColor.RED));
+                            return 0;
+
+                        }));
     }
 }

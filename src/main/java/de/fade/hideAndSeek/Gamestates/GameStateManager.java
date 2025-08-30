@@ -1,6 +1,8 @@
 package de.fade.hideAndSeek.Gamestates;
 
+import de.fade.hideAndSeek.Timer.Countdown;
 import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.format.NamedTextColor;
 import org.bukkit.Bukkit;
 
 public class GameStateManager {
@@ -30,15 +32,15 @@ public class GameStateManager {
     private void onEnter(Gamestates state) {
         switch (state) {
             case LOBBYPHASE -> {
-                Bukkit.broadcast(Component.text("§eDie Lobbyphase hat begonnen!"));
+                Bukkit.broadcast(Component.text("Die Lobbyphase hat begonnen!").color(NamedTextColor.YELLOW));
 
             }
             case GAMEPHASE -> {
-                Bukkit.broadcast(Component.text("§aDas Spiel startet jetzt!"));
+                Bukkit.broadcast(Component.text("Das Spiel startet jetzt!").color(NamedTextColor.GREEN));
                 // Rollen verteilen (Seeker/Hider), Spieler teleportieren, Countdown starten
             }
             case ENDPHASE -> {
-                Bukkit.broadcast(Component.text("§cDas Spiel ist vorbei!"));
+                Bukkit.broadcast(Component.text("Das Spiel ist vorbei!").color(NamedTextColor.RED));
                 // Gewinner anzeigen, Spieler zurück in die Lobby setzen
             }
         }
@@ -60,10 +62,12 @@ public class GameStateManager {
 
     public Boolean contains(String state) {
         switch (state) {
-            case "LOBBYPHASE" -> {return true;}
-            case "GAMEPHASE" -> {return true;}
-            case "ENDPHASE" -> {return true;}
-            default -> {return false;}
+            case "LOBBYPHASE":
+            case "GAMEPHASE":
+            case "ENDPHASE":
+                return true;
+            default:
+                return false;
         }
 
     }

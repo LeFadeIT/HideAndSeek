@@ -1,78 +1,61 @@
-[20:24:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+1-b895.146; JetBrains s.r.o. JBR-21.0.8+1-895.146-jcef) on Windows 11 10.0 (amd64)
-[20:24:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[20:24:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:24:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[20:24:17] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[23:06:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+1-b895.146; JetBrains s.r.o. JBR-21.0.8+1-895.146-jcef) on Windows 11 10.0 (amd64)
+[23:06:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[23:06:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:06:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[23:06:52] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - HideAndSeek (1.0-SNAPSHOT)
-[20:24:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:24:22] [ServerMain/INFO]: Loaded 1407 recipes
-[20:24:22] [ServerMain/INFO]: Loaded 1520 advancements
-[20:24:22] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:24:22] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 304,4ms
-[20:24:22] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:24:22] [Server thread/INFO]: Loading properties
-[20:24:22] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:24:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:24:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:24:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:24:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[20:24:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:24:23] [Server thread/INFO]: Default game type: SURVIVAL
-[20:24:23] [Server thread/INFO]: Generating keypair
-[20:24:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:24:23] [Server thread/INFO]: Using default channel type
-[20:24:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:24:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:24:23] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
-[20:24:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:24:23] [Server thread/INFO]: Preparing level "world"
-[20:24:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:24:24] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:24] [Server thread/INFO]: Preparing spawn area: 30%
-[20:24:24] [Server thread/INFO]: Time elapsed: 621 ms
-[20:24:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:24:24] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:24] [Server thread/INFO]: Time elapsed: 84 ms
-[20:24:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:24:24] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:24] [Server thread/INFO]: Time elapsed: 64 ms
-[20:24:24] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
-[20:24:24] [Server thread/INFO]: Hide and Seek enabled!
-[20:24:24] [Server thread/INFO]: [spark] Starting background profiler...
-[20:24:24] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:24:24] [Server thread/INFO]: Done preparing level "world" (1.290s)
-[20:24:24] [Server thread/INFO]: Running delayed init tasks
-[20:24:24] [Server thread/INFO]: Done (9.334s)! For help, type "help"
-[20:24:26] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[20:24:26] [Server thread/INFO]: [+] FadeIT joined!
-[20:24:26] [Server thread/INFO]: FadeIT[/127.0.0.1:61722] logged in with entity id 25 at ([world]-383.89095585317506, 71.15760090177669, -324.7297747350479)
-[20:24:29] [Server thread/INFO]: FadeIT issued server command: /setState
-[20:24:29] [Server thread/ERROR]: Command exception: /setState
-java.lang.IllegalArgumentException: No such argument 'state' exists on this command
-	at com.mojang.brigadier.context.CommandContext.getArgument(CommandContext.java:102) ~[brigadier-1.3.10.jar:?]
-	at HideAndSeek-1.0-SNAPSHOT.jar/de.fade.hideAndSeek.commands.ChangeGameStateCommand.lambda$ChangeGameStateCommand$1(ChangeGameStateCommand.java:27) ~[HideAndSeek-1.0-SNAPSHOT.jar:?]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:118) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1563) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1253) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:24:31] [Server thread/INFO]: FadeIT issued server command: /setStat
+[23:06:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:06:58] [ServerMain/INFO]: Loaded 1407 recipes
+[23:06:58] [ServerMain/INFO]: Loaded 1520 advancements
+[23:06:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:06:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 275,7ms
+[23:06:58] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[23:06:58] [Server thread/INFO]: Loading properties
+[23:06:58] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[23:06:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:06:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:06:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:06:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[23:06:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:06:59] [Server thread/INFO]: Default game type: SURVIVAL
+[23:06:59] [Server thread/INFO]: Generating keypair
+[23:06:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:06:59] [Server thread/INFO]: Using default channel type
+[23:06:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:06:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:06:59] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
+[23:06:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:06:59] [Server thread/INFO]: Preparing level "world"
+[23:06:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:06:59] [Server thread/INFO]: Preparing spawn area: 0%
+[23:07:00] [Server thread/INFO]: Preparing spawn area: 30%
+[23:07:00] [Server thread/INFO]: Time elapsed: 620 ms
+[23:07:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:07:00] [Server thread/INFO]: Preparing spawn area: 0%
+[23:07:00] [Server thread/INFO]: Time elapsed: 91 ms
+[23:07:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:07:00] [Server thread/INFO]: Preparing spawn area: 0%
+[23:07:00] [Server thread/INFO]: Time elapsed: 58 ms
+[23:07:00] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
+[23:07:00] [Server thread/INFO]: Hide and Seek enabled!
+[23:07:00] [Server thread/INFO]: [spark] Starting background profiler...
+[23:07:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:07:00] [Server thread/INFO]: Done preparing level "world" (1.276s)
+[23:07:00] [Server thread/INFO]: Running delayed init tasks
+[23:07:00] [Server thread/INFO]: Done (9.729s)! For help, type "help"
+[23:07:02] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[23:07:03] [Server thread/INFO]: Countdown gestartet!
+[23:07:03] [Server thread/INFO]: [+] FadeIT joined!
+[23:07:03] [Server thread/INFO]: FadeIT[/127.0.0.1:52535] logged in with entity id 25 at ([world]-436.849643605204, 63.0, -492.4018249611998)
+[23:07:03] [Server thread/INFO]: Spiel startet in 10 Sekunden
+[23:07:03] [Server thread/INFO]: Spiel startet in 9 Sekunden
+[23:07:04] [Server thread/INFO]: Spiel startet in 8 Sekunden
+[23:07:05] [Server thread/INFO]: Spiel startet in 7 Sekunden
+[23:07:06] [Server thread/INFO]: Spiel startet in 6 Sekunden
+[23:07:07] [Server thread/INFO]: Spiel startet in 5 Sekunden
+[23:07:08] [Server thread/INFO]: Spiel startet in 4 Sekunden
+[23:07:09] [Server thread/INFO]: Spiel startet in 3 Sekunden
+[23:07:10] [Server thread/INFO]: Spiel startet in 2 Sekunden
+[23:07:11] [Server thread/INFO]: Spiel startet in 1 Sekunden
+[23:07:12] [Server thread/INFO]: Das Spiel startet jetzt!
+[23:07:12] [Server thread/INFO]: Das Spiel startet jetzt!

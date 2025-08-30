@@ -1,9 +1,9 @@
 package de.fade.hideAndSeek;
 
+import de.fade.hideAndSeek.Events.OnPlayerJoinAndLeaveEvent;
 import de.fade.hideAndSeek.Gamestates.GameStateManager;
 import de.fade.hideAndSeek.commands.ChangeGameStateCommand;
 import de.fade.hideAndSeek.commands.HelloCommand;
-import de.fade.hideAndSeek.events.OnPlayerJoinAndLeaveEvent;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
@@ -14,11 +14,13 @@ public final class HideAndSeek extends JavaPlugin {
 
 
     private static GameStateManager manager = new GameStateManager();
+    private static HideAndSeek instance;
 
 
     @Override
     public void onEnable() {
         // Plugin startup logic
+        instance = this;
 
         manager = new GameStateManager();
 
@@ -43,7 +45,7 @@ public final class HideAndSeek extends JavaPlugin {
         return manager;
     }
 
-    public JavaPlugin getPlugin() {
-        return this;
+    public static HideAndSeek getInstance() {
+        return instance;
     }
 }
