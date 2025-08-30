@@ -1,63 +1,88 @@
-[01:25:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Windows 11 10.0 (amd64)
-[01:25:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[01:25:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:25:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[01:25:35] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[01:54:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Windows 11 10.0 (amd64)
+[01:54:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[01:54:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:54:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[01:54:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - HideAndSeek (1.0-SNAPSHOT)
-[01:25:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:25:46] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[01:25:46] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[01:25:48] [ServerMain/INFO]: No existing world data, creating new world
-[01:25:50] [ServerMain/INFO]: Loaded 1407 recipes
-[01:25:50] [ServerMain/INFO]: Loaded 1520 advancements
-[01:25:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:25:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 792.7ms
-[01:25:51] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[01:25:51] [Server thread/INFO]: Loading properties
-[01:25:51] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[01:25:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:25:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:25:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:25:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[01:25:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[01:25:53] [Server thread/INFO]: Default game type: SURVIVAL
-[01:25:53] [Server thread/INFO]: Generating keypair
-[01:25:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:25:53] [Server thread/INFO]: Using default channel type
-[01:25:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:25:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:25:53] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
-[01:25:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:25:53] [Server thread/INFO]: Preparing level "world"
-[01:26:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:26:02] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:02] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:03] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:03] [Server thread/INFO]: Preparing spawn area: 12%
-[01:26:04] [Server thread/INFO]: Preparing spawn area: 18%
-[01:26:04] [Server thread/INFO]: Preparing spawn area: 30%
-[01:26:05] [Server thread/INFO]: Preparing spawn area: 40%
-[01:26:06] [Server thread/INFO]: Preparing spawn area: 40%
-[01:26:06] [Server thread/INFO]: Preparing spawn area: 40%
-[01:26:06] [Server thread/INFO]: Time elapsed: 4486 ms
-[01:26:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:26:06] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:07] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:07] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:08] [Server thread/INFO]: Preparing spawn area: 10%
-[01:26:08] [Server thread/INFO]: Time elapsed: 1781 ms
-[01:26:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:26:08] [Server thread/INFO]: Preparing spawn area: 2%
-[01:26:08] [Server thread/INFO]: Time elapsed: 298 ms
-[01:26:08] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
-[01:26:08] [Server thread/INFO]: Hide and Seek enabled!
-[01:26:08] [Server thread/INFO]: [spark] Starting background profiler...
-[01:26:08] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[01:26:09] [Server thread/INFO]: Done preparing level "world" (15.096s)
-[01:26:09] [Server thread/INFO]: Running delayed init tasks
-[01:26:09] [Server thread/INFO]: Done (38.645s)! For help, type "help"
-[01:26:12] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[01:26:14] [Server thread/INFO]: FadeIT joined the game
-[01:26:14] [Server thread/INFO]: FadeIT[/127.0.0.1:64421] logged in with entity id 67 at ([world]38.856849706839725, 70.0, -135.19435078361167)
-[01:26:21] [Server thread/INFO]: FadeIT issued server command: /gamemode creative
-[01:26:21] [Server thread/INFO]: [FadeIT: Set own game mode to Creative Mode]
+[01:54:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:54:25] [ServerMain/INFO]: Loaded 1407 recipes
+[01:54:25] [ServerMain/INFO]: Loaded 1520 advancements
+[01:54:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:54:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 752.0ms
+[01:54:26] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[01:54:26] [Server thread/INFO]: Loading properties
+[01:54:26] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[01:54:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:54:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:54:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:54:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[01:54:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:54:28] [Server thread/INFO]: Default game type: SURVIVAL
+[01:54:28] [Server thread/INFO]: Generating keypair
+[01:54:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:54:28] [Server thread/INFO]: Using default channel type
+[01:54:28] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:54:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:54:28] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
+[01:54:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:54:28] [Server thread/INFO]: Preparing level "world"
+[01:54:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:54:29] [Server thread/INFO]: Preparing spawn area: 0%
+[01:54:29] [Server thread/INFO]: Preparing spawn area: 0%
+[01:54:30] [Server thread/INFO]: Preparing spawn area: 16%
+[01:54:30] [Server thread/INFO]: Preparing spawn area: 16%
+[01:54:30] [Server thread/INFO]: Time elapsed: 1660 ms
+[01:54:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:54:30] [Server thread/INFO]: Preparing spawn area: 0%
+[01:54:31] [Server thread/INFO]: Time elapsed: 130 ms
+[01:54:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:54:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:54:31] [Server thread/INFO]: Time elapsed: 110 ms
+[01:54:31] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
+[01:54:31] [Server thread/INFO]: Hide and Seek enabled!
+[01:54:31] [Server thread/INFO]: [spark] Starting background profiler...
+[01:54:31] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[01:54:31] [Server thread/INFO]: Done preparing level "world" (3.050s)
+[01:54:31] [Server thread/INFO]: Running delayed init tasks
+[01:54:31] [Server thread/INFO]: Done (20.741s)! For help, type "help"
+[01:54:32] [Server thread/INFO]: FadeIT (/127.0.0.1:51266) lost connection: Disconnected
+[01:54:34] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[01:54:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4d705431-fccf-484c-a82a-73377f25f3d2, mapped to Zombie['Zombie'/30, uuid='4d705431-fccf-484c-a82a-73377f25f3d2', l='ServerLevel[world]', x=17.53, y=-18.00, z=-255.93, cpos=[1, -16], tl=0, v=true], can't add Zombie['Zombie'/35, uuid='4d705431-fccf-484c-a82a-73377f25f3d2', l='ServerLevel[world]', x=14.74, y=-16.00, z=-253.84, cpos=[0, -16], tl=0, v=false]
+[01:54:35] [Server thread/WARN]: net.kyori.adventure.text.LegacyFormattingDetected: Legacy formatting codes have been detected in a component - this is unsupported behaviour. Please refer to the Adventure documentation (https://docs.advntr.dev) for more information. Component: TextComponentImpl{content="§7[§6+§7] §fFadeIT joined!", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, shadowColor=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}
+[01:54:35] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.warnWhenLegacyFormattingDetected(TextComponentImpl.java:84)
+[01:54:35] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.<init>(TextComponentImpl.java:74)
+[01:54:35] [Server thread/WARN]: 	at net.kyori.adventure.text.TextComponentImpl.create(TextComponentImpl.java:55)
+[01:54:35] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:821)
+[01:54:35] [Server thread/WARN]: 	at net.kyori.adventure.text.Component.text(Component.java:808)
+[01:54:35] [Server thread/WARN]: 	at HideAndSeek-1.0-SNAPSHOT.jar//de.fade.hideAndSeek.events.OnPlayerJoinEvent.onPlayerJoin(OnPlayerJoinEvent.java:21)
+[01:54:35] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[01:54:35] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[01:54:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:54:35] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[01:54:35] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:185)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1381)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266)
+[01:54:35] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[01:54:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:54:35] [Server thread/INFO]: §7[§6+§7] §fFadeIT joined!
+[01:54:35] [Server thread/INFO]: FadeIT[/127.0.0.1:51271] logged in with entity id 29 at ([world]31.75431784940339, 98.6264286224535, -244.33107834569043)
+[01:54:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 50dcb49b-3835-4078-9d96-8d4bb8a99303, mapped to Axolotl['Axolotl'/31, uuid='50dcb49b-3835-4078-9d96-8d4bb8a99303', l='ServerLevel[world]', x=0.85, y=10.00, z=-260.24, cpos=[0, -17], tl=0, v=true], can't add Axolotl['Axolotl'/56, uuid='50dcb49b-3835-4078-9d96-8d4bb8a99303', l='ServerLevel[world]', x=-1.72, y=10.00, z=-258.15, cpos=[-1, -17], tl=0, v=false]
+[01:54:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8e938db7-e0d1-489d-a82f-51992f71febb, mapped to Zombie['Zombie'/61, uuid='8e938db7-e0d1-489d-a82f-51992f71febb', l='ServerLevel[world]', x=32.52, y=42.23, z=-286.54, cpos=[2, -18], tl=0, v=true], can't add Zombie['Zombie'/81, uuid='8e938db7-e0d1-489d-a82f-51992f71febb', l='ServerLevel[world]', x=32.51, y=41.00, z=-289.77, cpos=[2, -19], tl=0, v=false]
+[01:54:36] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5733f7b-135f-4448-a22a-6edd7a039e69, mapped to Bat['Bat'/110, uuid='f5733f7b-135f-4448-a22a-6edd7a039e69', l='ServerLevel[world]', x=33.50, y=58.61, z=-160.60, cpos=[2, -11], tl=0, v=true], can't add Bat['Bat'/125, uuid='f5733f7b-135f-4448-a22a-6edd7a039e69', l='ServerLevel[world]', x=28.37, y=59.52, z=-153.53, cpos=[1, -10], tl=0, v=false]
+[02:00:05] [Server thread/INFO]: FadeIT lost connection: Disconnected
+[02:00:05] [Server thread/INFO]: FadeIT left the game
