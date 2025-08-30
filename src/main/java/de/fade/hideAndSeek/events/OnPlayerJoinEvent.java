@@ -18,6 +18,6 @@ public class OnPlayerJoinEvent implements Listener {
         Title title = Title.title(Component.text(player.getName() + " Welcome to").color(TextColor.color(0, 215, 255)),Component.text("Hide And Seek!").color(TextColor.color(252, 255, 80)));
         player.playSound(player, Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
         player.showTitle(title);
-        event.joinMessage(Component.text("§7[§a+§7] §f" + player.getName() + " joined!"));
+        event.joinMessage(Component.text("[+] " + player.getName() + " joined!"));
     }
 }
