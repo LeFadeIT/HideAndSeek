@@ -50,7 +50,7 @@ public class LobbyCountdownManager {
             if (countdown != null) {
                 countdown.stop();
                 countdown = null;
-                Bukkit.broadcast(Component.text("§cCountdown gestoppt! Zu wenige Spieler."));
+                Bukkit.broadcast(Component.text("Countdown gestoppt! Zu wenige Spieler.").color(NamedTextColor.RED));
             }
         }
     }
@@ -59,7 +59,6 @@ public class LobbyCountdownManager {
         countdown = new Countdown(plugin, 10, seconds -> {
             Bukkit.broadcast(Component.text("Spiel startet in " + seconds + " Sekunden").color(NamedTextColor.YELLOW));
         }, () -> {
-            Bukkit.broadcast(Component.text("Das Spiel startet jetzt!").color(NamedTextColor.GREEN));
             gameStateManager.setGameState(Gamestates.GAMEPHASE);
         });
 

@@ -38,5 +38,6 @@ public class OnPlayerJoinAndLeaveEvent implements Listener {
     public void onPlayerLeave(PlayerQuitEvent event) {
         Player player = event.getPlayer();
         event.quitMessage(null);
+        lobbyCountdownManager.checkAndStartCountdown(manager);
     }
 }

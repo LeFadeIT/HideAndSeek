@@ -1,5 +1,6 @@
 package de.fade.hideAndSeek.Gamestates;
 
+import de.fade.hideAndSeek.Game.HideAndSeekGame;
 import de.fade.hideAndSeek.Timer.Countdown;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
@@ -33,11 +34,13 @@ public class GameStateManager {
         switch (state) {
             case LOBBYPHASE -> {
                 Bukkit.broadcast(Component.text("Die Lobbyphase hat begonnen!").color(NamedTextColor.YELLOW));
-
             }
             case GAMEPHASE -> {
                 Bukkit.broadcast(Component.text("Das Spiel startet jetzt!").color(NamedTextColor.GREEN));
                 // Rollen verteilen (Seeker/Hider), Spieler teleportieren, Countdown starten
+
+                HideAndSeekGame game = new HideAndSeekGame();
+                game.start();
             }
             case ENDPHASE -> {
                 Bukkit.broadcast(Component.text("Das Spiel ist vorbei!").color(NamedTextColor.RED));
