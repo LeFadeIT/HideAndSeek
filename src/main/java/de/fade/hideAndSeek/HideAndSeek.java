@@ -5,6 +5,7 @@ import de.fade.hideAndSeek.Events.OnPlayerJoinAndLeaveEvent;
 import de.fade.hideAndSeek.Gamestates.GameStateManager;
 import de.fade.hideAndSeek.commands.ChangeGameStateCommand;
 import de.fade.hideAndSeek.commands.HelloCommand;
+import de.fade.hideAndSeek.commands.setLobbySpawn;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
@@ -28,6 +29,7 @@ public final class HideAndSeek extends JavaPlugin {
         this.getLifecycleManager().registerEventHandler(LifecycleEvents.COMMANDS, commands -> {
             commands.registrar().register(HelloCommand.HelloCommand().build());
             commands.registrar().register(ChangeGameStateCommand.ChangeGameStateCommand().build());
+            commands.registrar().register(setLobbySpawn.setSpawnCommand().build());
         });
 
         Bukkit.getConsoleSender().sendMessage(

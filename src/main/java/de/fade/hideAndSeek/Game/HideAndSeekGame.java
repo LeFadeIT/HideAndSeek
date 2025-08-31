@@ -6,7 +6,7 @@ public class HideAndSeekGame {
 
     public void start(){
         Bukkit.getOnlinePlayers().forEach(player -> {
-           
+
         });
     }
 }
