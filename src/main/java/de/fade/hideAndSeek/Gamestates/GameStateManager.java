@@ -8,13 +8,13 @@ import org.bukkit.Bukkit;
 
 public class GameStateManager {
 
-    private Gamestates currentState;
+    private static Gamestates currentState;
 
     public GameStateManager() {
         this.currentState = Gamestates.LOBBYPHASE; // Startzustand
     }
 
-    public Gamestates getCurrentState() {
+    public static Gamestates getCurrentState() {
         return currentState;
     }
 
