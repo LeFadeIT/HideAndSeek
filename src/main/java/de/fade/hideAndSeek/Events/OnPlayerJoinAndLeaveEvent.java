@@ -24,14 +24,12 @@ import java.io.IOException;
 public class OnPlayerJoinAndLeaveEvent implements Listener {
 
     private final GameStateManager manager = HideAndSeek.getGameStateManager();
-    private JavaPlugin plugin = HideAndSeek.getInstance();
-    private final LobbyCountdownManager lobbyCountdownManager = new LobbyCountdownManager(plugin, 1);
+    private static JavaPlugin plugin = HideAndSeek.getInstance();
+    public static LobbyCountdownManager lobbyCountdownManager = new LobbyCountdownManager(plugin, 1);
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) throws IOException {
         Player player = event.getPlayer();
-
-
         Title title = Title.title(Component.text(player.getName() + " Welcome to").color(TextColor.color(0, 215, 255)), Component.text("Hide And Seek!").color(TextColor.color(252, 255, 80)));
         player.playSound(player, Sound.ENTITY_PLAYER_LEVELUP, 1.0F, 1.0F);
         player.showTitle(title);
@@ -39,7 +37,7 @@ public class OnPlayerJoinAndLeaveEvent implements Listener {
         lobbyCountdownManager.checkAndStartCountdown(manager);
         Configfiles file = setLobbySpawn.file;
         if (GameStateManager.getCurrentState() == Gamestates.LOBBYPHASE) {
-            teleportToSpawn(file, player);
+            teleportTo(file, player, "Spawn", "Lobby",",");
         }else {
             teleportToSpec(file, player);
         }
@@ -59,9 +57,9 @@ public class OnPlayerJoinAndLeaveEvent implements Listener {
     }
 
 
-    private void teleportToSpawn(Configfiles file, Player player) throws IOException {
+    private void teleportTo(Configfiles file, Player player,String cat, String key, String splitby) throws IOException {
         if (file != null) {
-            String[] parts = file.readFile("Spawn", "Lobby", ",");
+            String[] parts = file.readFile(cat, key, splitby);
             double x = Double.parseDouble(parts[0]);
             double y = Double.parseDouble(parts[1]);
             double z = Double.parseDouble(parts[2]);
@@ -69,9 +67,8 @@ public class OnPlayerJoinAndLeaveEvent implements Listener {
             float pitch = Float.parseFloat(parts[4]);
             Location location = new Location(player.getWorld(), x, y, z, yaw, pitch);
             player.teleport(location);
-            player.sendMessage(Component.text("Du wurdest zum Spawn teleportiert!").color(NamedTextColor.DARK_PURPLE));
         } else {
-            Location location = new Location(player.getWorld(), 0, 0, 0);
+            Location location = new Location(player.getWorld(), 3,70,-13);
             player.teleport(location);
 
         }

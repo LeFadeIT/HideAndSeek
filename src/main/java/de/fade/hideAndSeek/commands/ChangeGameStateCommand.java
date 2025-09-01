@@ -35,7 +35,7 @@ public class ChangeGameStateCommand {
                                 sender.sendMessage(Component.text("Das Spiel befindet sich schon in diesem State!").color(NamedTextColor.BLUE));
                                 return 1;
                             }
-                            if (manager.contains(stateArg) && !stateArg.isEmpty()) {
+                            if (manager.contains(stateArg)) {
 
                                 manager.setGameState(newState);
                                 sender.sendMessage(Component.text("Das Game state wurde zu " + stateArg + " geändert!").color(NamedTextColor.GREEN));

@@ -12,8 +12,8 @@ public class LobbyCountdownManager {
 
     private final JavaPlugin plugin;
     private final int requiredPlayers;
-    private Countdown countdown;
-    private ActionBarDisplay actionBarDisplay;
+    public static Countdown countdown;
+    public static ActionBarDisplay actionBarDisplay;
 
     public LobbyCountdownManager(JavaPlugin plugin, int requiredPlayers) {
         this.plugin = plugin;
@@ -25,7 +25,7 @@ public class LobbyCountdownManager {
     }
 
     // Liefert die aktuelle Lobby-Statusnachricht für ActionBar
-    private Component getLobbyStatusMessage() {
+    public Component getLobbyStatusMessage() {
         int online = Bukkit.getOnlinePlayers().size();
 
         if (countdown != null) {
@@ -46,23 +46,24 @@ public class LobbyCountdownManager {
             if (countdown == null) {
                 startCountdown(gameStateManager);
             }
-        } else {
+        } else  {
             if (countdown != null) {
                 countdown.stop();
                 countdown = null;
                 Bukkit.broadcast(Component.text("Countdown gestoppt! Zu wenige Spieler.").color(NamedTextColor.RED));
             }
+
         }
     }
 
     private void startCountdown(GameStateManager gameStateManager) {
         countdown = new Countdown(plugin, 10, seconds -> {
-            Bukkit.broadcast(Component.text("Spiel startet in " + seconds + " Sekunden").color(NamedTextColor.YELLOW));
+
         }, () -> {
             gameStateManager.setGameState(Gamestates.GAMEPHASE);
+            actionBarDisplay.stop();
         });
 
         countdown.start();
-        Bukkit.broadcast(Component.text("Countdown gestartet!").color(NamedTextColor.GREEN));
     }
 }

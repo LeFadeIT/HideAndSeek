@@ -39,6 +39,9 @@ public class Countdown {
         }.runTaskTimer(plugin, 0L, 20L); // 20 ticks = 1 Sekunde
     }
 
+    public void restart(int  seconds) {
+        secondsLeft = seconds;
+    }
     public void stop() {
         secondsLeft = 0;
     }

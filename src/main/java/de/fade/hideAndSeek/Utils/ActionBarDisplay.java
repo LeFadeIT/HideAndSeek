@@ -15,11 +15,6 @@ public class ActionBarDisplay {
     private final long intervalTicks;
     private BukkitRunnable task;
 
-    /**
-     * @param plugin Dein JavaPlugin
-     * @param messageSupplier Lambda, das die aktuelle ActionBar-Nachricht liefert
-     * @param intervalTicks Intervall in Ticks (20 Ticks = 1 Sekunde)
-     */
     public ActionBarDisplay(JavaPlugin plugin, Supplier<Component> messageSupplier, long intervalTicks) {
         this.plugin = plugin;
         this.messageSupplier = messageSupplier;

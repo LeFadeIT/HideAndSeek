@@ -1,91 +1,62 @@
-[13:53:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Windows 11 10.0 (amd64)
-[13:53:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
-[13:53:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:53:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[13:53:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[21:10:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
+[21:10:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[21:10:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:10:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[21:10:34] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - HideAndSeek (1.0-SNAPSHOT)
-[13:54:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:54:07] [ServerMain/INFO]: Loaded 1407 recipes
-[13:54:07] [ServerMain/INFO]: Loaded 1520 advancements
-[13:54:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:54:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 846.7ms
-[13:54:08] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[13:54:08] [Server thread/INFO]: Loading properties
-[13:54:08] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[13:54:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:54:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:54:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:54:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[13:54:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[13:54:10] [Server thread/INFO]: Default game type: SURVIVAL
-[13:54:10] [Server thread/INFO]: Generating keypair
-[13:54:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:54:10] [Server thread/INFO]: Using default channel type
-[13:54:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:54:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:54:11] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
-[13:54:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:54:11] [Server thread/INFO]: Preparing level "world"
-[13:54:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:54:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:54:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:54:14] [Server thread/INFO]: Preparing spawn area: 18%
-[13:54:14] [Server thread/INFO]: Preparing spawn area: 18%
-[13:54:14] [Server thread/INFO]: Time elapsed: 2004 ms
-[13:54:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:54:14] [Server thread/INFO]: Preparing spawn area: 0%
-[13:54:14] [Server thread/INFO]: Time elapsed: 181 ms
-[13:54:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:54:14] [Server thread/INFO]: Preparing spawn area: 0%
-[13:54:14] [Server thread/INFO]: Time elapsed: 154 ms
-[13:54:14] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
-[13:54:14] [Server thread/INFO]: Hide and Seek enabled!
-[13:54:15] [Server thread/INFO]: [spark] Starting background profiler...
-[13:54:15] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:54:15] [Server thread/INFO]: Done preparing level "world" (3.981s)
-[13:54:15] [Server thread/INFO]: Running delayed init tasks
-[13:54:15] [Server thread/INFO]: Done (28.627s)! For help, type "help"
-[13:54:19] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:54:20] [Server thread/INFO]: Countdown gestartet!
-[13:54:20] [Server thread/INFO]: [+] FadeIT joined!
-[13:54:21] [Server thread/INFO]: FadeIT[/127.0.0.1:55167] logged in with entity id 25 at ([world]0.0, 0.0, 0.0)
-[13:54:21] [Server thread/INFO]: Spiel startet in 10 Sekunden
-[13:54:22] [Server thread/INFO]: Spiel startet in 9 Sekunden
-[13:54:23] [Server thread/INFO]: Spiel startet in 8 Sekunden
-[13:54:23] [Server thread/INFO]: Spiel startet in 7 Sekunden
-[13:54:24] [Server thread/INFO]: Spiel startet in 6 Sekunden
-[13:54:25] [Server thread/INFO]: Spiel startet in 5 Sekunden
-[13:54:26] [Server thread/INFO]: Spiel startet in 4 Sekunden
-[13:54:27] [Server thread/INFO]: Spiel startet in 3 Sekunden
-[13:54:28] [Server thread/INFO]: Spiel startet in 2 Sekunden
-[13:54:29] [Server thread/INFO]: Spiel startet in 1 Sekunden
-[13:54:30] [Server thread/INFO]: Das Spiel startet jetzt!
-[13:55:12] [Server thread/INFO]: FadeIT issued server command: /setLobby
-[13:55:14] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:55:17] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:55:17] [Server thread/INFO]: [+] FadeIT joined!
-[13:55:17] [Server thread/INFO]: FadeIT[/127.0.0.1:55192] logged in with entity id 414 at ([world]-10.698685970947627, 63.0, 26.14061410367295)
-[13:55:24] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:55:29] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:55:29] [Server thread/INFO]: [+] FadeIT joined!
-[13:55:29] [Server thread/INFO]: FadeIT[/127.0.0.1:55202] logged in with entity id 425 at ([world]-10.698685970947627, 63.0, 26.14061410367295)
-[13:55:35] [Server thread/INFO]: FadeIT issued server command: /setState LOBBYPHASE
-[13:55:35] [Server thread/INFO]: Die Lobbyphase hat begonnen!
-[13:55:38] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:55:43] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:55:43] [Server thread/INFO]: [+] FadeIT joined!
-[13:55:43] [Server thread/INFO]: FadeIT[/127.0.0.1:55215] logged in with entity id 439 at ([world]-10.070595794487888, 63.0, 24.396823827366088)
-[13:55:52] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:55:55] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:55:55] [Server thread/INFO]: [+] FadeIT joined!
-[13:55:55] [Server thread/INFO]: FadeIT[/127.0.0.1:55224] logged in with entity id 564 at ([world]-10.070595794487888, 63.0, 24.396823827366088)
-[13:56:02] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:56:04] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:56:04] [Server thread/INFO]: [+] FadeIT joined!
-[13:56:04] [Server thread/INFO]: FadeIT[/127.0.0.1:55234] logged in with entity id 614 at ([world]-10.070595794487888, 63.0, 24.396823827366088)
-[13:56:18] [Server thread/INFO]: FadeIT issued server command: /setState GAMEPHASE
-[13:56:18] [Server thread/INFO]: Das Spiel startet jetzt!
-[13:56:20] [Server thread/INFO]: FadeIT lost connection: Disconnected
-[13:56:22] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
-[13:56:22] [Server thread/INFO]: [+] FadeIT joined!
-[13:56:22] [Server thread/INFO]: FadeIT[/127.0.0.1:55248] logged in with entity id 671 at ([world]-50.69999998807907, 79.0, 54.77787571516763)
+[21:10:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:10:40] [ServerMain/INFO]: Loaded 1407 recipes
+[21:10:40] [ServerMain/INFO]: Loaded 1520 advancements
+[21:10:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:10:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 346,4ms
+[21:10:41] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:10:41] [Server thread/INFO]: Loading properties
+[21:10:41] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:10:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:10:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:10:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:10:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[21:10:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:10:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:10:41] [Server thread/INFO]: Generating keypair
+[21:10:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:10:42] [Server thread/INFO]: Using default channel type
+[21:10:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:10:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:10:42] [Server thread/INFO]: [HideAndSeek] Loading server plugin HideAndSeek v1.0-SNAPSHOT
+[21:10:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:10:42] [Server thread/INFO]: Preparing level "world"
+[21:10:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:10:42] [Server thread/INFO]: Preparing spawn area: 0%
+[21:10:43] [Server thread/INFO]: Preparing spawn area: 2%
+[21:10:43] [Server thread/INFO]: Time elapsed: 862 ms
+[21:10:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:10:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:10:43] [Server thread/INFO]: Time elapsed: 75 ms
+[21:10:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:10:43] [Server thread/INFO]: Preparing spawn area: 0%
+[21:10:43] [Server thread/INFO]: Time elapsed: 74 ms
+[21:10:43] [Server thread/INFO]: [HideAndSeek] Enabling HideAndSeek v1.0-SNAPSHOT
+[21:10:43] [Server thread/INFO]: Hide and Seek enabled!
+[21:10:43] [Server thread/INFO]: [spark] Starting background profiler...
+[21:10:43] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:10:43] [Server thread/INFO]: Done preparing level "world" (1.612s)
+[21:10:43] [Server thread/INFO]: Running delayed init tasks
+[21:10:43] [Server thread/INFO]: Done (10.820s)! For help, type "help"
+[21:10:47] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[21:10:48] [Server thread/INFO]: [+] FadeIT joined!
+[21:10:48] [Server thread/INFO]: FadeIT[/127.0.0.1:61580] logged in with entity id 87 at ([world]3.0, 70.0, -13.0)
+[21:10:48] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1a30adfb-2061-4edd-9345-0a956aa599ba, mapped to Fox['Fox'/10, uuid='1a30adfb-2061-4edd-9345-0a956aa599ba', l='ServerLevel[world]', x=-9.37, y=70.00, z=-27.52, cpos=[-1, -2], tl=0, v=true], can't add Fox['Fox'/95, uuid='1a30adfb-2061-4edd-9345-0a956aa599ba', l='ServerLevel[world]', x=-33.29, y=65.00, z=-22.29, cpos=[-3, -2], tl=0, v=false]
+[21:10:48] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: eca19371-50ac-4e2a-9532-efa11b827f40, mapped to Fox['Fox'/9, uuid='eca19371-50ac-4e2a-9532-efa11b827f40', l='ServerLevel[world]', x=-10.62, y=69.00, z=-26.47, cpos=[-1, -2], tl=0, v=true], can't add Fox['Fox'/96, uuid='eca19371-50ac-4e2a-9532-efa11b827f40', l='ServerLevel[world]', x=-32.19, y=65.00, z=-21.36, cpos=[-3, -2], tl=0, v=false]
+[21:10:48] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e0f24a5a-bf1c-4425-bd02-08f4b6cd78f1, mapped to Salmon['Salmon'/41, uuid='e0f24a5a-bf1c-4425-bd02-08f4b6cd78f1', l='ServerLevel[world]', x=-23.56, y=53.00, z=24.43, cpos=[-2, 1], tl=0, v=true], can't add Salmon['Salmon'/118, uuid='e0f24a5a-bf1c-4425-bd02-08f4b6cd78f1', l='ServerLevel[world]', x=-33.57, y=61.71, z=29.07, cpos=[-3, 1], tl=0, v=false]
+[21:10:48] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4f4a5329-b665-4f49-a009-e56f4c0bcaed, mapped to EnderMan['Enderman'/62, uuid='4f4a5329-b665-4f49-a009-e56f4c0bcaed', l='ServerLevel[world]', x=-18.47, y=72.00, z=-79.50, cpos=[-2, -5], tl=0, v=true], can't add EnderMan['Enderman'/132, uuid='4f4a5329-b665-4f49-a009-e56f4c0bcaed', l='ServerLevel[world]', x=-37.51, y=65.00, z=-51.20, cpos=[-3, -4], tl=0, v=false]
+[21:10:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2080c971-f8e8-40f4-8752-22ba982536fc, mapped to Cow['Cow'/57, uuid='2080c971-f8e8-40f4-8752-22ba982536fc', l='ServerLevel[world]', x=43.49, y=126.00, z=-76.21, cpos=[2, -5], tl=0, v=true], can't add Cow['Cow'/157, uuid='2080c971-f8e8-40f4-8752-22ba982536fc', l='ServerLevel[world]', x=42.84, y=128.00, z=-82.47, cpos=[2, -6], tl=0, v=false]
+[21:10:50] [Server thread/INFO]: FadeIT lost connection: Disconnected
+[21:10:55] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[21:10:55] [Server thread/INFO]: [+] FadeIT joined!
+[21:10:55] [Server thread/INFO]: FadeIT[/127.0.0.1:63278] logged in with entity id 193 at ([world]3.0, 70.0, -13.0)
+[21:10:58] [Server thread/INFO]: Das Spiel startet jetzt!
+[21:11:38] [Server thread/INFO]: FadeIT lost connection: Disconnected
+[21:11:40] [User Authenticator #0/INFO]: UUID of player FadeIT is f9ed96bb-c656-4ea0-896b-1d48f2a4c70f
+[21:11:40] [Server thread/INFO]: [+] FadeIT joined!
+[21:11:40] [Server thread/INFO]: FadeIT[/127.0.0.1:63305] logged in with entity id 326 at ([world]-0.7342803211640474, 63.0, 28.62457701220248)
